@@ -10,9 +10,13 @@ function calculateAge()
     const cy=today.getFullYear();
     var age=cy-by;
 
-    if(bm<cm)
+    if(bm<cm && by<cy)
     {
         document.getElementById('res').innerText=`Age:${age+1}`;
+    }
+    if(by>cy)
+    {
+        alert("Enter a valid DOB");
     }
    else
    {
