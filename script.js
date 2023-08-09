@@ -23,6 +23,15 @@ function calculateAge()
     document.getElementById('res').innerText=`Age:${age}`;
     
    }
+   if(bm==cm && bd<cd && flag!=1)
+   {
+       document.getElementById('res').innerText=`Age:${age+1}`;
+   }
+   if(bm==cm && bd>cd && flag!=1)
+   {
+       document.getElementById('res').innerText=`Age:${age}`;
+   }
+    
 
 }
 document.getElementById('clicker').addEventListener('click',calculateAge);
