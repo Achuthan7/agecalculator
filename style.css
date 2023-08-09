@@ -1,0 +1,60 @@
+body{
+    font: Arial, sans-serif;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 200vb;
+}
+.c1{
+    background-color: blue;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 6px rgb(59, 54, 54);
+}
+h1{
+    text-align: center;
+    text-shadow:5mm;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+p{
+    text-align: right;
+    width: 150px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: large;
+}
+h2{
+    text-align: left;
+    height: 20px;
+    text-shadow:5mm;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: ;
+}
+.c1:hover{
+    box-shadow: 0px 0px 4px rgb(59, 54, 54);
+}
+.display label{
+    text-shadow:5mm;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+.display input{
+    background-color: aquamarine;
+}
+.Button
+{
+    background-color:bisque;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: larger;
+    width: 250px;
+     margin: 0 auto;
+
+}
+.
