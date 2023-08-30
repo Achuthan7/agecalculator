@@ -9,7 +9,7 @@ function calculateAge()
     const cm=today.getMonth();
     const cy=today.getFullYear();
     var age=cy-by;
-    alert(cm);
+    alert("jd);
     if(bm==cm)
     {
         if(bd<cd)
